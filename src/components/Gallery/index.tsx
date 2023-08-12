@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { Container } from "../ui/Container";
+
 import GalleryImage1 from "../../../public/img-gallery-1.png";
 import GalleryImage2 from "../../../public/img-gallery-2.png";
 import GalleryImage3 from "../../../public/img-gallery-3.png";
+import { Container } from "../ui/Container";
 
 const images = [
 	{
@@ -25,7 +26,7 @@ export function Gallery() {
 			<Container>
 				<section className="h-[1335px] md:h-[850px] flex flex-col items-center justify-center w-full mx-auto">
 					<div className="flex flex-col items-center justify-center mb-8">
-						<h1 className="text-2xl mt-56 md:-mt-0 md:text-3xl font-semibold text-zinc-900 mb-5">
+						<h1 className="text-2xl mt-64 md:-mt-0 md:text-3xl font-semibold text-zinc-900 mb-5">
 							Galeria
 						</h1>
 						<p className="max-w-[768px] text-sm md:text-lg text-center text-zinc-400 leading-relaxed">

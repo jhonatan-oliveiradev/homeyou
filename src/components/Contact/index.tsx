@@ -3,7 +3,7 @@ import { Container } from "../ui/Container";
 export function Contact() {
 	return (
 		<Container>
-			<section className="flex flex-col items-center justify-center h-[242px] md:h-80 mx-auto">
+			<section className="flex flex-col items-center justify-center h-[242px] md:h-80 mx-auto mt-10">
 				<h2 className="text-2xl md:text-3xl font-semibold mb-5 mt-[500px] md:mt-0">
 					Orçamento
 				</h2>
